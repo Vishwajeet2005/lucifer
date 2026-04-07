@@ -115,6 +115,7 @@ export async function handler(event) {
       messages,
       model,
       stream: true,
+      max_tokens: 2048, // Ensures detailed, longer responses
     });
 
     for await (const chunk of stream) {
