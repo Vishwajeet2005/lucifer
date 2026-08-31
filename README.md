@@ -45,7 +45,3 @@ lucifer/
  
 ---
  
-## Deployment
- 
-The app deploys automatically to Netlify on every push to `master`. See `DEPLOY.md` for manual deployment steps.
- 
